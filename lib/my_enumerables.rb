@@ -3,7 +3,7 @@ module Enumerable
   def my_each_with_index(*para)
     index = 0
     if block_given?
-      self.each do |el|
+      self.my_each do |el|
         yield(el, index)
         index += 1
       end

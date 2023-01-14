@@ -1,4 +1,4 @@
-require_relative '../lib/my_enumerables'
+require_relative '../my_enumerables'
 print "Press enter to move on to #my_each tests for Arrays"
 gets
 system('clear') || system('cls')

@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative '../lib/my_enumerables'
+require_relative '../my_enumerables'
 
 RSpec.describe Enumerable do
   subject(:enumerable) { [1, 1, 2, 3, 5, 8, 13, 21, 34] }

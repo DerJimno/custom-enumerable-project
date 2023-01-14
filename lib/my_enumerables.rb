@@ -220,7 +220,7 @@ class Hash
     index = 0
     if block_given?
       until index == self.size do 
-        yield(self.keys[index], self.values[index])
+        yield([self.keys[index], self.values[index]])
         index += 1
       end
       self
